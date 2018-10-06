@@ -17,21 +17,43 @@ namespace AgendaPet
 
             Console.WriteLine("### Olá meu nome é Sonserina, sua agenda para botar nomes ####\n");
 
-            while (!nome.Equals("sair")) {
+            adicionaPessoaNaLista(listaDeNomes, nome);
+
+            exibeAgenda(listaDeNomes);
+
+
+            Console.Read();
+        }
+
+
+
+
+        private static string adicionaPessoaNaLista(List<string> listaDeNomes, string nome)
+        {
+            while (!nome.Equals("sair"))
+            {
                 Console.WriteLine("Digite o Nome ");
                 nome = Console.ReadLine();
                 listaDeNomes.Add(nome);
             }
 
-            Console.WriteLine("Lista de Nomes da Sonserina");
-
-            foreach (string item in listaDeNomes) {
-                Console.WriteLine(item);
-            }
-;
-
-            Console.Read();
+            return nome;
         }
+
+        private static void exibeAgenda(List<string> listaDeNomes)
+        {
+            Console.WriteLine("\n\nLista de Nomes da Sonserina");
+
+            foreach (string item in listaDeNomes)
+            {
+                Console.WriteLine(item);
+                Console.WriteLine("-------");
+            }
+        }
+
+
+
+
     }
 }
 
