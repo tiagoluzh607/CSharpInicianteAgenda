@@ -10,7 +10,9 @@ namespace AgendaPet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ola edmundo");
+            int numero = 50;
+
+            Console.WriteLine(numero);
             Console.Read();
         }
     }
