@@ -29,6 +29,9 @@ namespace AgendaPet
             }
 ;
 
+            while (true) {
+                Console.WriteLine("to no while");
+            }
 
             Console.Read();
         }
