@@ -11,8 +11,11 @@ namespace AgendaPet
         static void Main(string[] args)
         {
             int numero = 50;
+            int resultado = 0;
 
-            Console.WriteLine(numero);
+            resultado = numero + 60;
+
+            Console.WriteLine(resultado);
             Console.Read();
         }
     }
