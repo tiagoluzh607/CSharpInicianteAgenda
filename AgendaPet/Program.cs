@@ -10,10 +10,11 @@ namespace AgendaPet
     {
         static void Main(string[] args)
         {
-            int numero = 50;
+            int primeiroNumero = 50;
+            int segundoNumero = 40;
             int resultado = 0;
 
-            resultado = numero + 60;
+            resultado = primeiroNumero + segundoNumero;
 
             Console.WriteLine(resultado);
             Console.Read();
