@@ -1,0 +1,7 @@
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\bin\Debug\AgendaPet.exe.config
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\bin\Debug\AgendaPet.exe
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\bin\Debug\AgendaPet.pdb
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\obj\Debug\AgendaPet.csprojResolveAssemblyReference.cache
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\obj\Debug\AgendaPet.csproj.CoreCompileInputs.cache
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\obj\Debug\AgendaPet.exe
+C:\Users\tiago\source\repos\AgendaPet\AgendaPet\obj\Debug\AgendaPet.pdb
