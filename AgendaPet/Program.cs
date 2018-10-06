@@ -10,13 +10,17 @@ namespace AgendaPet
     {
         static void Main(string[] args)
         {
-            int primeiroNumero = 50;
-            int segundoNumero = 80;
-            int resultado = 0;
 
-            resultado = primeiroNumero + segundoNumero;
+            string nome1;
 
-            Console.WriteLine("O resultado é "+resultado);
+            Console.WriteLine("### Olá meu nome é Sonserina, sua agenda para botar nomes ####\n");
+            nome1 = Console.ReadLine();
+
+            Console.WriteLine("Lista de Nomes da Sonserina");
+            Console.WriteLine(nome1);
+
+
+
             Console.Read();
         }
     }
