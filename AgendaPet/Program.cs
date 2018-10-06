@@ -10,10 +10,13 @@ namespace AgendaPet
     {
         static void Main(string[] args)
         {
-            string nome = "Jon Snow";
+            int primeiroNumero = 50;
+            int segundoNumero = 80;
+            int resultado = 0;
 
+            resultado = primeiroNumero + segundoNumero;
 
-            Console.WriteLine(nome);
+            Console.WriteLine("O resultado é "+resultado);
             Console.Read();
         }
     }
