@@ -12,15 +12,16 @@ namespace AgendaPet
         {
 
             List<string> listaDeNomes = new List<string>();
-            string nome;
+            string nome = "";
 
 
             Console.WriteLine("### Olá meu nome é Sonserina, sua agenda para botar nomes ####\n");
 
-            Console.WriteLine("Digite o Nome ");
-            nome = Console.ReadLine();
-            listaDeNomes.Add(nome);
-
+            while (!nome.Equals("sair")) {
+                Console.WriteLine("Digite o Nome ");
+                nome = Console.ReadLine();
+                listaDeNomes.Add(nome);
+            }
 
             Console.WriteLine("Lista de Nomes da Sonserina");
 
@@ -28,10 +29,6 @@ namespace AgendaPet
                 Console.WriteLine(item);
             }
 ;
-
-            while (true) {
-                Console.WriteLine("to no while");
-            }
 
             Console.Read();
         }
